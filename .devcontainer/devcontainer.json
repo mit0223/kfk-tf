@@ -9,7 +9,8 @@
 		"ghcr.io/devcontainers/features/aws-cli:1": {
 			"version": "latest"
 		},
-		"ghcr.io/devcontainers/features/node": {}
+		"ghcr.io/devcontainers/features/node": {},
+		"ghcr.io/devcontainers/features/git-lfs": {}
 	},
 
 	"postCreateCommand": "pip install aws-mfa && pip install -r src/producer/requirements.txt && pip install -r src/consumer/requirements.txt && npm install -g @google/gemini-cli",
